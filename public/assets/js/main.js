@@ -139,23 +139,23 @@ $(function() {
 
   bar.animate(0.9);
 
-  var bar = new ProgressBar.Circle(circleprog3, {
-    strokeWidth: 7,
-    easing: 'easeInOut',
-    duration: 1400,
-    delay: 2700,
-    trailWidth: 7,
-    step: function(state, circle) {
-      var value = Math.round(circle.value() * 100);
-      if (value === 0) {
-        circle.setText('');
-      } else {
-        circle.setText(value);
-      }
-    }
-  });
+  // var bar = new ProgressBar.Circle(circleprog3, {
+  //   strokeWidth: 7,
+  //   easing: 'easeInOut',
+  //   duration: 1400,
+  //   delay: 2700,
+  //   trailWidth: 7,
+  //   step: function(state, circle) {
+  //     var value = Math.round(circle.value() * 100);
+  //     if (value === 0) {
+  //       circle.setText('');
+  //     } else {
+  //       circle.setText(value);
+  //     }
+  //   }
+  // });
 
-  bar.animate(0.7);
+  // bar.animate(0.7);
 
   var bar = new ProgressBar.Line(lineprog1, {
     strokeWidth: 1.72,
