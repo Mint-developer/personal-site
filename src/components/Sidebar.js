@@ -1,5 +1,10 @@
 import React from 'react';
-import face1 from '../assets/img/face-1.jpg';
+import Languages from './SidebarLanguages';
+import TechnicalSkills from './SidebarSkills';
+import ExtraSkills from './ExtraSkills';
+import PersonalInfo from './PersonalInfo';
+import SocialLinks from './SocialLinks';
+import SidebarHeader from './SidebarHeader';
 
 const Sidebar = () => {
     return (
@@ -14,85 +19,24 @@ const Sidebar = () => {
                 </div>
 
                    
-                <div className="art-header">
-                
-                    <div className="art-avatar">
-                        <a data-fancybox="avatar" href="assets/img/face-1.jpg" className="art-avatar-curtain">
-                            <img src={face1} alt="avatar" />
-                            <i className="fas fa-expand"></i>
-                        </a>
-                        
-                        <div className="art-lamp-light">
-                            <div className="art-available-lamp"></div>
-                        </div>
-                    </div>
-                    
-                    <h5 className="art-name mb-10">Muhammad Ijlal Nasir</h5>
-                    
-                    <div className="art-sm-text">Full-Stack Web Deweloper <br />Ui/UX Designer, </div>
-                </div>
+                <SidebarHeader />
 
                 
                 <div id="scrollbar2" className="art-scroll-frame">
 
-                    
-
-                    <div className="art-table p-15-15">
-                        <ul>
-                        
-                            <li>
-                                <h6>Residence:</h6><span>Canada</span>
-                            </li>
-                            
-                            <li>
-                                <h6>City:</h6><span>Toronto</span>
-                            </li>
-                            
-                            <li>
-                                <h6>Age:</h6><span>26</span>
-                            </li>
-                        </ul>
-                    </div>
+                    <PersonalInfo />
 
                     <div className="art-ls-divider"></div>
 
-                    <div className="art-lang-skills p-30-15">
-                        <div className="art-lang-skills-item">
-                            <div id="circleprog1" className="art-cirkle-progress"></div>
-                            
-                            <h6>French</h6>
-                        </div>
-                    </div>
+                    <Languages />
 
                     <div className="art-ls-divider"></div>
 
-                    <div className="art-hard-skills p-30-15">
-
-                        <div className="art-hard-skills-item">
-                            <div className="art-skill-heading">
-                                <h6>html</h6>
-                            </div>
-                            
-                            <div className="art-line-progress">
-                                <div id="lineprog1"></div>
-                            </div>
-                            
-                        </div>
-
-                    </div>
+                    <TechnicalSkills />
 
                     <div className="art-ls-divider"></div>
 
-                    <ul className="art-knowledge-list p-15-0">
-                
-                        <li>Bootstrap, Materialize</li>
-                        
-                        <li>Stylus, Sass, Less</li>
-                        
-                        <li>Gulp, Webpack, Grunt</li>
-                        
-                        <li>GIT knowledge</li>
-                    </ul>
+                    <ExtraSkills />
 
                     <div className="art-ls-divider"></div>
 
@@ -103,18 +47,7 @@ const Sidebar = () => {
 
                 </div>
 
-                <div className="art-ls-social">
-              
-                    <a href="#." target="_blank"><i className="fab fa-linkedin-in"></i></a>
-                    
-                    <a href="#." target="_blank"><i className="fab fa-dribbble"></i></a>
-                    
-                    <a href="#." target="_blank"><i className="fab fa-behance"></i></a>
-                    
-                    <a href="#." target="_blank"><i className="fab fa-github"></i></a>
-                    
-                    <a href="#." target="_blank"><i className="fab fa-twitter"></i></a>
-                </div>
+                <SocialLinks />
                 
                 
             </div>
