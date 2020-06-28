@@ -1,4 +1,5 @@
 import React from 'react';
+import face1 from '../assets/img/face-1.jpg';
 
 const Sidebar = () => {
     return (
@@ -17,7 +18,7 @@ const Sidebar = () => {
                 
                     <div className="art-avatar">
                         <a data-fancybox="avatar" href="assets/img/face-1.jpg" className="art-avatar-curtain">
-                            <img src="assets/img/face-1.jpg" alt="avatar" />
+                            <img src={face1} alt="avatar" />
                             <i className="fas fa-expand"></i>
                         </a>
                         
