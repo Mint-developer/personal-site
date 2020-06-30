@@ -7,12 +7,12 @@ export default function MainBannerSection() {
         <div className="container-fluid">
             <div className="row p-60-0 p-lg-30-0 p-md-15-0">
                 <div className="col-lg-12">
-                    <div className="art-a art-banner" style={{ background:  `url(${bgImg})` }}>
+                    <div className="art-a art-banner" style={{ backgroundImage:  `url(${bgImg})` }}>
                         <div className="art-banner-back"></div>
                         <div className="art-banner-dec"></div>
                         <div className="art-banner-overlay">
                             <div className="art-banner-title">
-                                <h1 className="mb-15">Discover my Amazing <br />Art Space!</h1>
+                                <h1 className="mb-15">Let us build something<br /> Great!</h1>
                                 <div className="art-lg-text art-code mb-25">&lt;<i>code</i>&gt; I build <span className="txt-rotate" data-period="2000" data-rotate='[ "database backed web applications.", "blazing fast SEO friendly websites.", "automation tools." ]'></span>&lt;/<i>code</i>&gt;</div>
                                 <div className="art-buttons-frame">
                 

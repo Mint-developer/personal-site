@@ -15,6 +15,10 @@ export default function PersonalInfo() {
                 <li>
                     <h6>Age:</h6><span>22</span>
                 </li>
+
+                <li>
+                    <h6>Call/WhatsApp:</h6><span>+92 331 9329268</span>
+                </li>
             </ul>
         </div>
     )

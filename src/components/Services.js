@@ -24,7 +24,7 @@ export default class Services extends Component {
                     <div className="col-lg-4 col-md-6">
                         <div className="art-a art-service-icon-box">
                             <div className="art-service-ib-content">
-                                <h5 className="mb-15">Database Backed Web Applications</h5>
+                                <h5 className="mb-15">Full-Stack Web Applications</h5>
                                 <div className="mb-15">Database backed web apps ranging from CRM to School Management Systems custom tailored to meet your business objectives.</div>
                                 {/* <div className="art-buttons-frame"><a href="#." className="art-link art-color-link art-w-chevron">Order now</a></div> */}
                             </div>

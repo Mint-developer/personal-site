@@ -8,6 +8,7 @@ export default class Project extends Component {
         const title = this.props.title;
         const filter = this.props.filter;
         const img = this.props.img;
+        const url = this.props.url;
 
         return (
             
@@ -18,7 +19,8 @@ export default class Project extends Component {
                 </a>
                 <div className="art-item-description">
                     <h5 className="mb-15">{title}</h5>
-                    <a href="#." className="art-link art-color-link art-w-chevron">Read more</a>
+                    {url ? <a href={url} target="_blank" className="art-link art-color-link art-w-chevron">Visit Site</a> : ''}
+                    
                 </div>
             </div>
             

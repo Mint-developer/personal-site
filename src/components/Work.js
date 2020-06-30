@@ -43,11 +43,11 @@ export default class Work extends Component {
                     </div>
 
                     <div className="art-grid art-grid-3-col art-gallery">
-                        <Project filter="website" title="Jinnbaba Services Website" img={jinnImg}/>
+                        <Project filter="website" title="Jinnbaba Services Website" img={jinnImg} url="https://jinnbaba.com.pk"/>
                         <Project filter="webapp" title="Jinnbaba Back Office - Order Management System" img={jinnBO}/>
-                        <Project filter="website" title="Blue Reef Investments Website" img={bri}/>
-                        <Project filter="website" title="Gulberg Marketing Website" img={gm}/>
-                        <Project filter="website" title="Bajwa Law Firm Website" img={bajwa}/>
+                        <Project filter="website" title="Blue Reef Investments Website" img={bri} url="http://www.brinvestments.co.uk/"/>
+                        <Project filter="website" title="Gulberg Marketing Website" img={gm} url="http://www.gulbergmarketing.com/"/>
+                        <Project filter="website" title="Bajwa Law Firm Website" img={bajwa} url="http://www.bajwaip.com/"/>
                     </div>
 
                     
