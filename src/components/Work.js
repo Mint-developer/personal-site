@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import Project from './Project';
+import jinnImg from '../assets/img/projects/jinn.png';
+import jinnBO from '../assets/img/projects/jinn-bo.png';
+import bri from '../assets/img/projects/bri.jpg';
+import gm from '../assets/img/projects/gulberg.png';
+import bajwa from '../assets/img/projects/bajwa.png';
 
 
 export default class Work extends Component {
@@ -22,9 +27,9 @@ export default class Work extends Component {
                                 
                                     <a href="#" data-filter="*" className="art-link art-current">All Categories</a>
                                     
-                                    <a href="#" data-filter=".websites" className="art-link">Websites</a>
+                                    <a href="#" data-filter=".website" className="art-link">Websites</a>
                                     
-                                    <a href="#" data-filter=".webapps" className="art-link">Web Apps</a>
+                                    <a href="#" data-filter=".webapp" className="art-link">Web Apps</a>
                                     
                                     {/* <a href="#" data-filter=".drawings" className="art-link"></a> */}
                                     
@@ -38,8 +43,11 @@ export default class Work extends Component {
                     </div>
 
                     <div className="art-grid art-grid-3-col art-gallery">
-                        <Project filter="websites"/>
-                        <Project filter="webapps"/>
+                        <Project filter="website" title="Jinnbaba Services Website" img={jinnImg}/>
+                        <Project filter="webapp" title="Jinnbaba Back Office - Order Management System" img={jinnBO}/>
+                        <Project filter="website" title="Blue Reef Investments Website" img={bri}/>
+                        <Project filter="website" title="Gulberg Marketing Website" img={gm}/>
+                        <Project filter="website" title="Bajwa Law Firm Website" img={bajwa}/>
                     </div>
 
                     
