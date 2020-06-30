@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/static/js/main.16790edf.chunk.js",
+    "main.js.map": "/static/js/main.16790edf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.17f2f773.js",
+    "runtime-main.js.map": "/static/js/runtime-main.17f2f773.js.map",
+    "static/js/2.0dc2b689.chunk.js": "/static/js/2.0dc2b689.chunk.js",
+    "static/js/2.0dc2b689.chunk.js.map": "/static/js/2.0dc2b689.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4b6f8d8067c86985f6b88e1c44af2eb4.js": "/precache-manifest.4b6f8d8067c86985f6b88e1c44af2eb4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.0dc2b689.chunk.js.LICENSE.txt": "/static/js/2.0dc2b689.chunk.js.LICENSE.txt",
+    "static/media/bajwa.png": "/static/media/bajwa.eb46d2f8.png",
+    "static/media/bg.jpg": "/static/media/bg.fec03229.jpg",
+    "static/media/bri.jpg": "/static/media/bri.04e519d7.jpg",
+    "static/media/cv.pdf": "/static/media/cv.dd09a7c8.pdf",
+    "static/media/face-1.jpg": "/static/media/face-1.48f31818.jpg",
+    "static/media/face-2.png": "/static/media/face-2.f5643104.png",
+    "static/media/gulberg.png": "/static/media/gulberg.2fa182d2.png",
+    "static/media/jinn-bo.png": "/static/media/jinn-bo.ec8f764f.png",
+    "static/media/jinn.png": "/static/media/jinn.b5252fd1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17f2f773.js",
+    "static/js/2.0dc2b689.chunk.js",
+    "static/js/main.16790edf.chunk.js"
+  ]
+}
