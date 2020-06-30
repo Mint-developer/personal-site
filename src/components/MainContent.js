@@ -6,6 +6,7 @@ import Stats from './Stats';
 import Work from './Work';
 import EducationSection from './EducationSection';
 import ExperienceSection from './ExperienceSection';
+import Footer from './Footer';
 
 const MainContent = () => {
 
@@ -35,6 +36,8 @@ const MainContent = () => {
                             <ExperienceSection />
                         </div>
                     </div>
+
+                    <Footer />
 
                     
 

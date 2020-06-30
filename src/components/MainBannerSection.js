@@ -13,7 +13,7 @@ export default function MainBannerSection() {
                         <div className="art-banner-overlay">
                             <div className="art-banner-title">
                                 <h1 className="mb-15">Discover my Amazing <br />Art Space!</h1>
-                                <div className="art-lg-text art-code mb-25">&lt;<i>code</i>&gt; I build <span className="txt-rotate" data-period="2000" data-rotate='[ "web interfaces.", "ios and android applications.", "design mocups.", "automation tools." ]'></span>&lt;/<i>code</i>&gt;</div>
+                                <div className="art-lg-text art-code mb-25">&lt;<i>code</i>&gt; I build <span className="txt-rotate" data-period="2000" data-rotate='[ "database backed web applications.", "blazing fast SEO friendly websites.", "automation tools." ]'></span>&lt;/<i>code</i>&gt;</div>
                                 <div className="art-buttons-frame">
                 
                                     <a href="#." className="art-btn art-btn-md"><span>Explore now</span></a>

@@ -12,10 +12,9 @@ export default class EducationSection extends Component {
                 </div>
                 <div className="art-timeline art-gallery" id="history">
 
-                    <EducationItem />
-                    <EducationItem />
-                    <EducationItem />
-                    <EducationItem />
+                    <EducationItem title="Pearson BTEC HND Computing" institute="The Millennium Universal College" from="Jan 2018" to="Dec 2019"/>
+                    <EducationItem title="HSSC Pre-Engineering" institute="Edwardes College" from="March 2015" to="Aug 2017"/>
+                    <EducationItem title="SSC Science" institute="Army Public School" from="" to="2015"/>
                     
                 </div>
             </div>

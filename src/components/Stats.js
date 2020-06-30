@@ -8,7 +8,7 @@ export default class Stats extends Component {
                     <div className="col-md-3 col-6">
                         <div className="art-counter-frame">
                             <div className="art-counter-box">
-                                <span className="art-counter">10</span><span className="art-counter-plus">+</span>
+                                <span className="art-counter">2</span><span className="art-counter-plus">+</span>
                             </div>
                             <h6>Years Experience</h6>
                         </div>
@@ -16,7 +16,7 @@ export default class Stats extends Component {
                     <div className="col-md-3 col-6">
                         <div className="art-counter-frame">
                             <div className="art-counter-box">
-                                <span className="art-counter">143</span>
+                                <span className="art-counter">43</span>
                             </div>
                             <h6>Completed Projects</h6>
                         </div>
@@ -24,7 +24,7 @@ export default class Stats extends Component {
                     <div className="col-md-3 col-6">
                         <div className="art-counter-frame">
                             <div className="art-counter-box">
-                                <span className="art-counter">114</span>
+                                <span className="art-counter">14</span>
                             </div>
                             <h6>Happy Customers</h6>
                         </div>

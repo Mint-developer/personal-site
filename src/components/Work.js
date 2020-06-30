@@ -22,13 +22,13 @@ export default class Work extends Component {
                                 
                                     <a href="#" data-filter="*" className="art-link art-current">All Categories</a>
                                     
-                                    <a href="#" data-filter=".webTemplates" className="art-link">Web Templates</a>
+                                    <a href="#" data-filter=".websites" className="art-link">Websites</a>
                                     
-                                    <a href="#" data-filter=".logos" className="art-link">Logos</a>
+                                    <a href="#" data-filter=".webapps" className="art-link">Web Apps</a>
                                     
-                                    <a href="#" data-filter=".drawings" className="art-link">Drawings</a>
+                                    {/* <a href="#" data-filter=".drawings" className="art-link"></a> */}
                                     
-                                    <a href="#" data-filter=".ui" className="art-link">UI Elements</a>
+                                    {/* <a href="#" data-filter=".ui" className="art-link">UI Elements</a> */}
                                 </div>
                                 
                             </div>
@@ -38,8 +38,8 @@ export default class Work extends Component {
                     </div>
 
                     <div className="art-grid art-grid-3-col art-gallery">
-                        <Project filter="webTemplates"/>
-                        <Project filter="logos"/>
+                        <Project filter="websites"/>
+                        <Project filter="webapps"/>
                     </div>
 
                     

@@ -12,9 +12,13 @@ export default class ExperienceSection extends Component {
                 </div>
 
                 <div className="art-timeline">
-                    <ExperienceItem />
-                    <ExperienceItem />
-                    <ExperienceItem />
+                    {/* <ExperienceItem title="Full-Stack Web Developer" org="Jinnbaba Services" date="" /> */}
+                    <ExperienceItem title="Full-Stack Web Developer - Lead" org="Flair Travel and Holidays" date="Jan 2020 - Present"/>
+                    
+                    <ExperienceItem title="Full-Stack Web Developer" org="Red Star Technologies" date="July 2018 - May 2019"/>
+
+                    <ExperienceItem title="Web Developer - Jr." org="Red Star Technologies" date="March 2018 - July 2018"/>
+                    
                 </div>
             </div>
                     

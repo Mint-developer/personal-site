@@ -18,7 +18,7 @@ export default function SidebarHeader() {
             
             <h5 className="art-name mb-10">Muhammad Ijlal Nasir</h5>
             
-            <div className="art-sm-text">Full-Stack Web Deweloper <br />Ui/UX Designer, </div>
+            <div className="art-sm-text">Full-Stack Web Developer <br />React Native Enthusiast </div>
         </div>
     )
 }
